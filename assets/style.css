@@ -1,0 +1,102 @@
+body {
+    background: #2e2f2f;
+    font-family: 'Poppins', sans-serif;
+    color: #d8d8e9;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nome1{
+
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.imagem{
+
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.borda {
+    width: 1000px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.cabecalho{
+    text-align: center;
+    z-index: 5;
+}
+
+.corpo{
+    margin: 0px 20px;
+}
+
+.icone{
+    width: 46px;
+    height: 46px;
+}
+
+.link{
+    text-decoration: none;
+    color: #d8d8e9;
+
+}
+
+.dados{
+    font-size: 20px;
+    color: black;
+    
+}
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+}
+
+.spa{
+    text-align: right;
+    position: fixed;
+    color: black;
+    font-size: 15px;
+    right: 90px;
+    bottom: 20px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+main{
+    flex: -1;
+    background-color: #829298;
+    margin-right: 70px;
+    padding: 20px;
+    flex: 1;
+}
+
+h1{
+    color: #F1FEC6;
+    
+
+}
